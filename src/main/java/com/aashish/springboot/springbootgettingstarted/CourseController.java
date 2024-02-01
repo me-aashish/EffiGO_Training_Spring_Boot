@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CourseController {
 
+	@RequestMapping("/")
+	public String message() {
+		return "Welcome to demo courses website";
+	}
+
 	@RequestMapping("/courses")
 	public List<Course> retrieveAllCourses() {
 
