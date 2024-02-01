@@ -32,5 +32,4 @@ build/
 ### VS Code ###
 .vscode/
 
-### Configs ###
-sprinf-boot-getting-started/src/main/resources/application.properties
+
